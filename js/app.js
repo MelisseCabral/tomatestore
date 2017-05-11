@@ -1,7 +1,7 @@
 (function () {
-    // Initialize Firebase
 
     'use strict';
+ // Initialize Firebase
   var config = {
     apiKey: "AIzaSyB9Ro3b5hTFZTpwa2e4I-Ltxga5rsFx2hA",
     authDomain: "tomatestore-40234.firebaseapp.com",
@@ -16,7 +16,6 @@
     const emailLogin = document.getElementById("login-txt"),
         passLogin = document.getElementById("password-txt"),
         btnLogin = document.getElementById("btnLogin");
-
     btnLogin.addEventListener('click', e=> {
         //Get email and Pass
         const email = emailLogin.value,
@@ -64,5 +63,4 @@
             console.log("not logged");
         }
     });
-
-})
+}());
