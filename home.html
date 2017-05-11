@@ -9,6 +9,7 @@
         <link rel='stylesheet' href='css/material.css'/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <script src="js/material.js"></script>
+        <script src="js/navegation.js"></script>
     </head>
 
     <body>
@@ -16,6 +17,7 @@
             mdl-layout--fixed-header">
           <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
+                <span id="title-screen" class="mdl-layout-title">Balanço</span>
               <div class="mdl-layout-spacer"></div>
               <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                           mdl-textfield--floating-label mdl-textfield--align-right">
@@ -37,9 +39,9 @@
           </div>
 
         <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">timeline</i> Balanço</a>
-            <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">store</i> Estoque</a>
-            <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">work</i> Vendas</a>
+            <a class="mdl-navigation__link" href="" id="balanco"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation" >timeline</i> Balanço</a>
+            <a class="mdl-navigation__link" href="" id="estoque"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation" >store</i> Estoque</a>
+            <a class="mdl-navigation__link" href="" id="vendas"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation" >work</i> Vendas</a>
             <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">trending_up</i> Adicionar venda</a>
             <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">content_paste</i> Registrar entrada</a>
             <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">settings</i> Configurações</a>
