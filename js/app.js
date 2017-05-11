@@ -12,9 +12,10 @@
   };
   firebase.initializeApp(config);
 
+    //Database Tomate Store
     dbTomateStore();
 
-    //Database Tomate Store
-    authTomate();
+    //Autentication Tomate Store
+    authTomateStore();
 
 }());
