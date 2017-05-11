@@ -13,6 +13,7 @@
   firebase.initializeApp(config);
 
     //Database Tomate Store
-    function dbTomateStore;
+    dbTomateStore();
+    TomateAuth();
 
 }())
