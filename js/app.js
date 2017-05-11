@@ -12,5 +12,6 @@
   };
   firebase.initializeApp(config);
   TomateAuth();
+  dbTomateStore();
 
 }());
