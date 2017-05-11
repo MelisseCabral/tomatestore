@@ -1,0 +1,29 @@
+html{
+
+}
+
+body{
+    background: #FF6969;
+}
+
+#container-logo{
+    text-align: -webkit-center;
+    width: 100%;
+}
+#logo{
+    width: 25%;
+}
+#login-form{
+    width: 25%;
+}
+#form{
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+#row-fluid{
+
+}
+.mdl-button {
+    color: rgb(253, 252, 252) !important;
+}
