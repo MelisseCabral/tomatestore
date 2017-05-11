@@ -39,6 +39,7 @@
           console.log(error);
           // [END_EXCLUDE]
         });
+        alert("loged");
         // [END authwithemail]
       }
     });
