@@ -1,4 +1,4 @@
-(function authTomate(){
+(function authTomateStore(){
     //Get Elements
     const emailLogin = document.getElementById("login-txt"),
         passLogin = document.getElementById("password-txt"),
