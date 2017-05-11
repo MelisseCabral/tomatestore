@@ -1,5 +1,7 @@
-(function(){
+(function () {
     // Initialize Firebase
+
+    'use strict';
   var config = {
     apiKey: "AIzaSyB9Ro3b5hTFZTpwa2e4I-Ltxga5rsFx2hA",
     authDomain: "tomatestore-40234.firebaseapp.com",
