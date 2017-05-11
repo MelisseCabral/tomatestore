@@ -12,6 +12,9 @@
   };
   firebase.initializeApp(config);
 
+    //Database Tomate Store
+    dbTomateStore;
+
     //Get Elements
     const emailLogin = document.getElementById("login-txt"),
         passLogin = document.getElementById("password-txt"),
