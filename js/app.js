@@ -11,7 +11,8 @@
     messagingSenderId: "193843683809"
   };
   firebase.initializeApp(config);
-  TomateAuth();
-  dbTomateStore();
 
-}());
+    //Database Tomate Store
+    function dbTomateStore;
+
+}())
