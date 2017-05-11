@@ -27,7 +27,10 @@ body{
 .mdl-button {
     color: rgb(253, 252, 252) !important;
 }
-#login-txt, password-txt{
+#login-txt{
+    color: white;
+}
+#password-txt{
     color: white;
 }
 #btnLogin{
