@@ -5,6 +5,10 @@ html{
 body{
     background: #FF6969;
 }
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #FF6969 inset;
+    -webkit-text-fill-color: white !important;
+}
 
 #container-logo{
     text-align: -webkit-center;
