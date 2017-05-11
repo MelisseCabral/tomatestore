@@ -5,7 +5,7 @@
     var registroEntrada = document.getElementById("registroEntrada");
     var config = document.getElementById("config");
 
-    estoque.addEventListener("click", showEstoque(){
+    estoque.addEventListener("click", showEstoque()){
         var title = document.getElementById("title-screen");
         title.value = "Estoque";
     });
