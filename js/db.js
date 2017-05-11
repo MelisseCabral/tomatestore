@@ -1,16 +1,35 @@
-(function dbTomateStore() {
+class Sell {
 
-    //Get elements
-    const preObject = document.getElementById('object');
+}
+
+class Storage {
+
+}
+
+class User {}
+
+
+document.getElementById("buttonL").addEventListener("click", dbTomateStore);
+
+
+function writeUserData(name, govId, userId, name, email, imageUrl) {
+    firebase.database().ref('users/' + userId).set({
+        username: name,
+        cpf: govId,
+        email: email,
+    });
+}
+
+function dbTomateStore() {
 
     //Create references
-    const dbRefObject = firebase.database().ref().child('object');
-    const dbRefObject = firebase.database().ref().child('hobbies')
+    const dbRefObject = firebase.database().ref().child('product');
 
     //Sync object changes
-    dbRefObject.on('value', snap => {
-       preObject.innerHTML = JSON.stringify(snap.val(), null, 3);
+    dbRefObject.push({
+        teclado: {
+            codeproduct: "2",
+            quantity: "3232"
+        }
     });
-
-    bdRefList.on('child_added', snap => console.log(snap.val()));
-}())
+}
