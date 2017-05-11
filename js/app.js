@@ -18,4 +18,4 @@
     //Autentication Tomate Store
     authTomateStore();
 
-}());
+}())
