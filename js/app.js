@@ -14,6 +14,6 @@
 
     //Database Tomate Store
     dbTomateStore();
-    TomateAuth();
+    authTomate();
 
 }())
