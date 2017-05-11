@@ -1,3 +1,3 @@
-function dbTomateStore() {
-    alert("Amorrrr!!!")
-}
+(function dbTomateStore() {
+    alert("Amorrrr!!!");
+}())

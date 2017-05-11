@@ -13,7 +13,7 @@
   firebase.initializeApp(config);
 
     //Database Tomate Store
-    dbTomateStore;
+    function dbTomateStore;
 
     //Get Elements
     const emailLogin = document.getElementById("login-txt"),
