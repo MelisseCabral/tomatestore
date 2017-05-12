@@ -39,7 +39,7 @@
           console.log(error);
           // [END_EXCLUDE]
         });
-        alert("loged");
+        console.log("loged");
         // [END authwithemail]
       }
     });

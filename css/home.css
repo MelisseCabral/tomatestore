@@ -1,6 +1,14 @@
 html{
 
 }
+#addSell{
+    width: 55%;
+    margin: 0;
+    left: 0;
+}
+td{
+    text-align: left !important;
+}
 
 body{
     background: white;
@@ -26,4 +34,18 @@ input:-webkit-autofill {
 .mdl-layout__drawer-button{
     background: #FF6969 !important;
     padding-top: 0.5%;
+}
+#table-vendas{
+    width: 100% !important;
+}
+#vendas{
+
+}
+#addNewVenda{
+    position: absolute;
+    margin-right: 5%;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 5%;
+    background: #FF6969;
 }
